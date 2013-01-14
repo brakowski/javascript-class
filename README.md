@@ -117,6 +117,9 @@ You can also always get the parent classes of an class, by calling **getInherita
 - **getInheritance** will return the names of the parent classes as an array of string. 
 - **getInheritance(true)** will return the parent class as an array of classes
 
+### Inheritance check
+You can check if an instance is an instance of a specific class by using the native javascript **instanceof** method, or by calling **isInstanceOf(Class)** of an class. When using **isInstanceOf** you can also pass the class name as an string. 
+
 Class manager
 -------------
 Every class that is defined will be registered in the class manager, you can check if a class is defined, and even get a class by it's name.
