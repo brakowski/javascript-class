@@ -115,7 +115,7 @@ ClassName.super.constructor.call(this);
 You can also always get the parent classes of an class, by calling **getInheritance** of that class.
 
 - **getInheritance** will return the names of the parent classes as an array of string. 
-- **getInheritance(true)** will return the parent class as an array of classes
+- **getInheritance(*true*)** will return the parent class as an array of classes
 
 Class manager
 -------------
@@ -123,7 +123,7 @@ Every class that is defined will be registered in the class manager, you can che
 
 ### The ClassManager methods
 
-* addClass(className, class): adds a class to the class manager
-* removeClass(className): removes a given class from the class manager
-* getClass(className): retrieves a class by it's name
-* hasClass(classname): checks if a class by the given name exists
+- **addClass(*className*, *class*)**: adds a class to the class manager
+- **removeClass(*className*)**: removes a given class from the class manager
+- **getClass(*className*)**: retrieves a class by it's name
+- **hasClass(*classname*)**: checks if a class by the given name exists
