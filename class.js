@@ -9,7 +9,7 @@
  * -> Mixins
  * -> Static Properties
  * -> Namespaces
- *
+ * -> Class manager
  *
  * Example:
  * ´´´´´´´´
@@ -23,7 +23,7 @@
  *     constructor: function(){ }
  * });
  * 
- * @author Alexander Brakowski
+ * @author genix
  *
  */
 
