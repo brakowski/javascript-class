@@ -34,6 +34,7 @@ There are some keywords that are used internally, which should not be used in th
 * mixins
 
 #### Do not use
+* super
 * className
 * instanceNumber
 * initMixins
